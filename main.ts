@@ -1,3 +1,7 @@
+// "Dunia dalam Angka" — atlas statistik 12 negara: entrypoint ini menyerahkan situsnya ke juri.
+// Ia menyalin app/ dan screenshots/ dari samping file ini ke $MAKEFUN_OUTPUT_DIR, lalu menulis
+// dossier.json di sana memakai buildDossier dari vendor/makefun-frontend.ts (kit) — ringkasan yang
+// dibaca juri: tangkapan layar, berkas dan byte saat pertama dimuat, serta sumber situsnya.
 // A working best-site-01 entry (Node 22, standard library only): the site is this directory's app/ folder, plain
 // static files a browser opens at app/index.html (ES modules, CSS, no build step), its content held in its own files:
 // nothing it runs, styles or shows loads over the network. The program hands it in: it copies app/ and screenshots/
